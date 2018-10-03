@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex1</title>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<style>
+		img{
+			width: 300px;
+			height: auto;
+		}
+		#container{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		#res{
+			color: red;
+			font-size: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="container">
+		<div>
+			<img id="img1" src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png">
+		</div>
+		<div>
+			<img id="img2" src="img/santa-claus.png">
+		</div>
+		<div>
+			<img id="img3" src="img/1-2-christmas-bell-png-image.png">
+		</div>
+	</div>
+		<p id="res"></p>
+	<script>
+		$(document).ready(function(){
+			 $('#img1').on("click", function() {
+			 	$("#res").text("You clicked on Gift_Box")
+			 	});
+			 $('#img2').on("click", function() {
+			 	$("#res").text("You clicked on santa")
+			 	});
+			 $('#img3').on("click", function() {
+			 	$("#res").text("You clicked on christmas-bell")
+			 	});
+
+		});
+	</script>
+</body>
+</html>

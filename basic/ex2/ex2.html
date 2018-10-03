@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>ex2</title>
+	<meta charset="utf-8">
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+	<style>
+		img{
+			width: 150px;
+			height: auto;
+		}
+		#container1,#container2,#container3{
+			display: flex;
+			justify-content: space-evenly;
+		}
+		#res{
+			color: red;
+			font-size: 20px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<div id="container1">
+		<div>
+			<img src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png">
+		</div>
+		<div>
+			<img class="santa" src="img/santa-claus.png">
+		</div>
+		<div>
+			<img src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png">
+		</div>
+	</div>
+	<div id="container2">
+		<div>
+			<img src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png">
+		</div>
+		<div>
+			<img class="santa" src="img/santa-claus.png">
+		</div>
+		<div>
+			<img src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png">
+		</div>
+	</div>
+	<div id="container3">
+		<div>
+			<img src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png">
+		</div>
+		<div>
+			<img class="santa" src="img/santa-claus.png">
+		</div>
+		<div>
+			<img src="img/White_Gift_Box_with_Red_Bow_PNG_Image_2048x.png">
+		</div>
+	</div>
+		
+	<script>
+		$(document).ready(function(){
+			 $(".santa").on("click", function() {
+			 	$(this).fadeOut(1000);
+			 	});
+
+		});
+	</script>
+</body>
+</html>

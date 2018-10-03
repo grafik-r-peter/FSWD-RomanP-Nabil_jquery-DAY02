@@ -1,0 +1,26 @@
+var nab =[{
+	"Picture": "milk.jpg",
+	"price": "10$",
+	"status": "milk",
+	"ammount":0
+}, {
+	"Picture": "lemon.jpg",
+	"price": "5$",
+	"status": "lemon",
+	"ammount":0
+}, {
+	"Picture": "orange.jpg",
+	"price": "2$",
+	"status": "orange",
+	"ammount":0
+}, {
+	"Picture": "juce.jpg",
+	"price": "12$",
+	"status": "juce",
+	"ammount":0
+}, {
+	"Picture": "frensh.jpg",
+	"price": "4$",
+	"status": "frensh",
+	"ammount":0
+}];
